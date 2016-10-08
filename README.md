@@ -1,1 +1,1 @@
-# kadtest
+# Self test on nodejs kad package

@@ -4,6 +4,7 @@
   "dependencies": {
     "kad": "^1.5.18",
     "kad-logger-json": "^0.1.2",
-    "kad-traverse": "0.0.4"
+    "kad-traverse": "0.0.4",
+    "retry": "^0.10.0"
   }
 }

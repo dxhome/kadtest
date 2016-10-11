@@ -2,7 +2,6 @@
 
 'use strict';
 
-var kad = require('kad');
 var assert = require('assert');
 var complex = require('..');
 var program = require('commander');
@@ -51,11 +50,3 @@ for (let j = 0; j < actors.length; j++) {
     }
   });
 }
-
-// setup kad network
-// for (let j = 0; j < actors.length; j++) {
-//     if (actors[j] instanceof complex.createRenter) {
-//         // join network
-//         actors[j].join();
-//     }
-// }

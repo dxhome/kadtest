@@ -122,13 +122,16 @@ function dotest () {
 
     setInterval(function () {
         console.log('List current contacts...');
+
+        console.log('found self contact %j', self._self);
+
         for (let k in self._router._buckets) {
             let contactlist = self._router._buckets[k].getContactList();
             if (! contactlist) {
                 console.log('no contacts found');
             } else {
                 contactlist.forEach(function (c) {
-                    console.log('found contact %j', c);
+                    console.log('found other contact %j', c);
                 });
             }
         }
